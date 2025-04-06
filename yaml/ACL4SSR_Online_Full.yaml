@@ -31,6 +31,22 @@ proxy-groups:
       - 🇳🇱 荷兰节点
       - 🇨🇭 瑞士节点
       - 🇦🇪 阿联酋节点
+      - 🇳🇿 新西兰节点
+      - 🇸🇪 瑞典节点
+      - 🇳🇴 挪威节点
+      - 🇩🇰 丹麦节点
+      - 🇫🇮 芬兰节点
+      - 🇮🇱 以色列节点
+      - 🇵🇱 波兰节点
+      - 🇧🇪 比利时节点
+      - 🇦🇹 奥地利节点
+      - 🇮🇪 爱尔兰节点
+      - 🇨🇿 捷克节点
+      - 🇵🇹 葡萄牙节点
+      - 🇬🇷 希腊节点
+      - 🇭🇺 匈牙利节点
+      - 🇷🇴 罗马尼亚节点
+      - 🇺🇦 乌克兰节点
       - 🚀 手动切换
       - DIRECT
   - name: 🚀 手动切换
@@ -65,6 +81,22 @@ proxy-groups:
       - 🇳🇱 荷兰节点
       - 🇨🇭 瑞士节点
       - 🇦🇪 阿联酋节点
+      - 🇳🇿 新西兰节点
+      - 🇸🇪 瑞典节点
+      - 🇳🇴 挪威节点
+      - 🇩🇰 丹麦节点
+      - 🇫🇮 芬兰节点
+      - 🇮🇱 以色列节点
+      - 🇵🇱 波兰节点
+      - 🇧🇪 比利时节点
+      - 🇦🇹 奥地利节点
+      - 🇮🇪 爱尔兰节点
+      - 🇨🇿 捷克节点
+      - 🇵🇹 葡萄牙节点
+      - 🇬🇷 希腊节点
+      - 🇭🇺 匈牙利节点
+      - 🇷🇴 罗马尼亚节点
+      - 🇺🇦 乌克兰节点
   - name: ♻️ 自动选择
     type: url-test
     interval: 300
@@ -93,6 +125,22 @@ proxy-groups:
       - 🇳🇱 荷兰节点
       - 🇨🇭 瑞士节点
       - 🇦🇪 阿联酋节点
+      - 🇳🇿 新西兰节点
+      - 🇸🇪 瑞典节点
+      - 🇳🇴 挪威节点
+      - 🇩🇰 丹麦节点
+      - 🇫🇮 芬兰节点
+      - 🇮🇱 以色列节点
+      - 🇵🇱 波兰节点
+      - 🇧🇪 比利时节点
+      - 🇦🇹 奥地利节点
+      - 🇮🇪 爱尔兰节点
+      - 🇨🇿 捷克节点
+      - 🇵🇹 葡萄牙节点
+      - 🇬🇷 希腊节点
+      - 🇭🇺 匈牙利节点
+      - 🇷🇴 罗马尼亚节点
+      - 🇺🇦 乌克兰节点
   - name: 📲 电报消息
     type: select
     proxies:
@@ -462,6 +510,102 @@ proxy-groups:
     type: url-test
     include-all: true
     filter: (?i)阿联酋|迪拜|阿布扎比|Dubai|Abu\s?Dhabi|UAE|AE
+    interval: 300
+    tolerance: 50
+  - name: 🇳🇿 新西兰节点
+    type: url-test
+    include-all: true
+    filter: (?i)新西兰|奥克兰|Auckland|New\s?Zealand|NZ
+    interval: 300
+    tolerance: 50
+  - name: 🇸🇪 瑞典节点
+    type: url-test
+    include-all: true
+    filter: (?i)瑞典|斯德哥尔摩|Stockholm|Sweden|SE
+    interval: 300
+    tolerance: 50
+  - name: 🇳🇴 挪威节点
+    type: url-test
+    include-all: true
+    filter: (?i)挪威|奥斯陆|Oslo|Norway|NO
+    interval: 300
+    tolerance: 50
+  - name: 🇩🇰 丹麦节点
+    type: url-test
+    include-all: true
+    filter: (?i)丹麦|哥本哈根|Copenhagen|Denmark|DK
+    interval: 300
+    tolerance: 50
+  - name: 🇫🇮 芬兰节点
+    type: url-test
+    include-all: true
+    filter: (?i)芬兰|赫尔辛基|Helsinki|Finland|FI
+    interval: 300
+    tolerance: 50
+  - name: 🇮🇱 以色列节点
+    type: url-test
+    include-all: true
+    filter: (?i)以色列|特拉维夫|Tel\s?Aviv|Israel|IL
+    interval: 300
+    tolerance: 50
+  - name: 🇵🇱 波兰节点
+    type: url-test
+    include-all: true
+    filter: (?i)波兰|华沙|Warsaw|Poland|PL
+    interval: 300
+    tolerance: 50
+  - name: 🇧🇪 比利时节点
+    type: url-test
+    include-all: true
+    filter: (?i)比利时|布鲁塞尔|Brussels|Belgium|BE
+    interval: 300
+    tolerance: 50
+  - name: 🇦🇹 奥地利节点
+    type: url-test
+    include-all: true
+    filter: (?i)奥地利|维也纳|Vienna|Austria|AT
+    interval: 300
+    tolerance: 50
+  - name: 🇮🇪 爱尔兰节点
+    type: url-test
+    include-all: true
+    filter: (?i)爱尔兰|都柏林|Dublin|Ireland|IE
+    interval: 300
+    tolerance: 50
+  - name: 🇨🇿 捷克节点
+    type: url-test
+    include-all: true
+    filter: (?i)捷克|布拉格|Prague|Czech|CZ
+    interval: 300
+    tolerance: 50
+  - name: 🇵🇹 葡萄牙节点
+    type: url-test
+    include-all: true
+    filter: (?i)葡萄牙|里斯本|Lisbon|Portugal|PT
+    interval: 300
+    tolerance: 50
+  - name: 🇬🇷 希腊节点
+    type: url-test
+    include-all: true
+    filter: (?i)希腊|雅典|Athens|Greece|GR
+    interval: 300
+    tolerance: 50
+  - name: 🇭🇺 匈牙利节点
+    type: url-test
+    include-all: true
+    filter: (?i)匈牙利|布达佩斯|Budapest|Hungary|HU
+    interval: 300
+    tolerance: 50
+  - name: 🇷🇴 罗马尼亚节点
+    type: url-test
+    include-all: true
+    filter: (?i)罗马尼亚|布加勒斯特|Bucharest|Romania|RO
+    interval: 300
+    tolerance: 50
+  - name: 🇺🇦 乌克兰节点
+    type: url-test
+    include-all: true
+    filter: (?i)乌克兰|基辅|Kyiv|Ukraine|UA
     interval: 300
     tolerance: 50
   - name: 🎥 奈飞节点
