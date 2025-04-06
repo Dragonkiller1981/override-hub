@@ -9,16 +9,90 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
+      - 🇲🇴 澳门节点
+      - 🇮🇳 印度节点
+      - 🇮🇩 印度尼西亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇻🇳 越南节点
+      - 🇦🇺 澳大利亚节点
+      - 🇨🇦 加拿大节点
+      - 🇲🇽 墨西哥节点
+      - 🇧🇷 巴西节点
+      - 🇦🇷 阿根廷节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇮🇹 意大利节点
+      - 🇷🇺 俄罗斯节点
+      - 🇿🇦 南非节点
+      - 🇸🇦 沙特节点
+      - 🇹🇷 土耳其节点
+      - 🇪🇸 西班牙节点
+      - 🇳🇱 荷兰节点
+      - 🇨🇭 瑞士节点
+      - 🇦🇪 阿联酋节点
       - 🚀 手动切换
       - DIRECT
   - name: 🚀 手动切换
     include-all: true
     type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🇲🇴 澳门节点
+      - 🇮🇳 印度节点
+      - 🇮🇩 印度尼西亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇻🇳 越南节点
+      - 🇦🇺 澳大利亚节点
+      - 🇨🇦 加拿大节点
+      - 🇲🇽 墨西哥节点
+      - 🇧🇷 巴西节点
+      - 🇦🇷 阿根廷节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇮🇹 意大利节点
+      - 🇷🇺 俄罗斯节点
+      - 🇿🇦 南非节点
+      - 🇸🇦 沙特节点
+      - 🇹🇷 土耳其节点
+      - 🇪🇸 西班牙节点
+      - 🇳🇱 荷兰节点
+      - 🇨🇭 瑞士节点
+      - 🇦🇪 阿联酋节点
   - name: ♻️ 自动选择
     type: url-test
-    include-all: true
     interval: 300
     tolerance: 50
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 🇮🇳 印度节点
+      - 🇮🇩 印度尼西亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇦🇺 澳大利亚节点
+      - 🇨🇦 加拿大节点
+      - 🇲🇽 墨西哥节点
+      - 🇧🇷 巴西节点
+      - 🇦🇷 阿根廷节点
+      - 🇬🇧 英国节点
+      - 🇩🇪 德国节点
+      - 🇫🇷 法国节点
+      - 🇮🇹 意大利节点
+      - 🇸🇦 沙特节点
+      - 🇹🇷 土耳其节点
+      - 🇪🇸 西班牙节点
+      - 🇳🇱 荷兰节点
+      - 🇨🇭 瑞士节点
+      - 🇦🇪 阿联酋节点
   - name: 📲 电报消息
     type: select
     proxies:
@@ -250,6 +324,144 @@ proxy-groups:
     include-all: true
     filter: (?i)KR|Korea|KOR|首尔|韩|韓
     type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇲🇴 澳门节点
+    type: url-test
+    include-all: true
+    filter: (?i)澳门|Macao|Macau
+    interval: 300
+    tolerance: 50
+  - name: 🇮🇳 印度节点
+    type: url-test
+    include-all: true
+    filter: (?i)印度|孟买|Mumbai|IN|India
+    interval: 300
+    tolerance: 50
+  - name: 🇮🇩 印度尼西亚节点
+    type: url-test
+    include-all: true
+    filter: (?i)印尼|雅加达|Jakarta|Indonesia|ID
+    interval: 300
+    tolerance: 50
+  - name: 🇲🇾 马来西亚节点
+    type: url-test
+    include-all: true
+    filter: (?i)马来|大马|吉隆坡|MY|Malaysia
+    interval: 300
+    tolerance: 50
+  - name: 🇹🇭 泰国节点
+    type: url-test
+    include-all: true
+    filter: (?i)泰国|曼谷|Bangkok|TH|Thailand
+    interval: 300
+    tolerance: 50
+  - name: 🇻🇳 越南节点
+    type: url-test
+    include-all: true
+    filter: (?i)越南|胡志明|河内|Hanoi|HoChiMinh|VN|Vietnam
+    interval: 300
+    tolerance: 50
+  - name: 🇦🇺 澳大利亚节点
+    type: url-test
+    include-all: true
+    filter: (?i)澳|悉尼|墨尔本|Sydney|Melbourne|AU|Australia
+    interval: 300
+    tolerance: 50
+  - name: 🇨🇦 加拿大节点
+    type: url-test
+    include-all: true
+    filter: (?i)加|多伦多|温哥华|Toronto|Vancouver|CA|Canada
+    interval: 300
+    tolerance: 50
+  - name: 🇲🇽 墨西哥节点
+    type: url-test
+    include-all: true
+    filter: (?i)墨西哥|墨城|Mexico|Mexico\s?City|MX
+    interval: 300
+    tolerance: 50
+  - name: 🇧🇷 巴西节点
+    type: url-test
+    include-all: true
+    filter: (?i)巴西|圣保罗|里约|Sao\s?Paulo|Rio|Brazil|BR
+    interval: 300
+    tolerance: 50
+  - name: 🇦🇷 阿根廷节点
+    type: url-test
+    include-all: true
+    filter: (?i)阿根廷|布宜诺斯|Buenos\s?Aires|Argentina|AR
+    interval: 300
+    tolerance: 50
+  - name: 🇬🇧 英国节点
+    type: url-test
+    include-all: true
+    filter: (?i)英|伦敦|London|UK|United\s?Kingdom
+    interval: 300
+    tolerance: 50
+  - name: 🇩🇪 德国节点
+    type: url-test
+    include-all: true
+    filter: (?i)德|法兰克福|Frankfurt|DE|Germany
+    interval: 300
+    tolerance: 50
+  - name: 🇫🇷 法国节点
+    type: url-test
+    include-all: true
+    filter: (?i)法|巴黎|Paris|FR|France
+    interval: 300
+    tolerance: 50
+  - name: 🇮🇹 意大利节点
+    type: url-test
+    include-all: true
+    filter: (?i)意|米兰|罗马|Milan|Rome|Italy|IT
+    interval: 300
+    tolerance: 50
+  - name: 🇷🇺 俄罗斯节点
+    type: url-test
+    include-all: true
+    filter: (?i)俄|莫斯科|Moscow|Russia|RU
+    interval: 300
+    tolerance: 50
+  - name: 🇿🇦 南非节点
+    type: url-test
+    include-all: true
+    filter: (?i)南非|约翰内斯堡|开普敦|Johannesburg|Cape\s?Town|South\s?Africa|ZA
+    interval: 300
+    tolerance: 50
+  - name: 🇸🇦 沙特节点
+    type: url-test
+    include-all: true
+    filter: (?i)沙特|利雅得|Riyadh|Saudi|SA
+    interval: 300
+    tolerance: 50
+  - name: 🇹🇷 土耳其节点
+    type: url-test
+    include-all: true
+    filter: (?i)土耳其|伊斯坦布尔|Istanbul|Turkey|TR
+    interval: 300
+    tolerance: 50
+  - name: 🇪🇸 西班牙节点
+    type: url-test
+    include-all: true
+    filter: (?i)西班牙|马德里|巴塞罗那|Madrid|Barcelona|Spain|ES
+    interval: 300
+    tolerance: 50
+  - name: 🇳🇱 荷兰节点
+    type: url-test
+    include-all: true
+    filter: (?i)荷兰|阿姆斯特丹|Amsterdam|Netherlands|NL
+    interval: 300
+    tolerance: 50
+  - name: 🇨🇭 瑞士节点
+    type: url-test
+    include-all: true
+    filter: (?i)瑞士|苏黎世|Zurich|Switzerland|CH
+    interval: 300
+    tolerance: 50
+  - name: 🇦🇪 阿联酋节点
+    type: url-test
+    include-all: true
+    filter: (?i)阿联酋|迪拜|阿布扎比|Dubai|Abu\s?Dhabi|UAE|AE
     interval: 300
     tolerance: 50
   - name: 🎥 奈飞节点
